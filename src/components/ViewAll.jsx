@@ -8,7 +8,7 @@ const ViewAll = () => {
 
 
 
-  {
+ {
     "ProductName": "Lay's American Style Cream & Onion Potato Chips",
     "Image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSSjQwCrqinocPGu1KssQ7TjoYRyC-A-ecuRdKa7dE8IBGJSzm6xkXtQ0n7b98HnB13Cgg_CUOvm-K4cA0eMFhDPgKinFk5H__Mdn5XcMka-9rh1L4XrNVlfuI",
     "Description": "Crispy, tasty potato chips with cream and onion flavor.",
@@ -580,7 +580,7 @@ const ViewAll = () => {
                 {productDate.map(
                   (value,index)=>{
                     return(
-                      <div class="card" >
+                      <div class="card h-60" >
   <img src={value.Image} class="card-img-top" alt="..."></img>
   <div class="card-body">
     <h5 class={value.ProductName}></h5>
@@ -599,12 +599,7 @@ const ViewAll = () => {
                 }
 
 
-                <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-
-
-
-
-                </div>
+                
                 
                 
                 

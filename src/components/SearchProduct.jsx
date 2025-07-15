@@ -15,7 +15,9 @@ const SearchProduct = () => {
                             <input type="text" className="form-control" />
                         </div>
                          <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <br></br><button className="btn btn-danger">search</button>
+                            <div class="d-grid gap-2">
+                            <br></br><button className="btn btn-success">search</button>
+                            </div>
                         </div>
                     </div>
                 </div>
