@@ -13,7 +13,7 @@ const ProductHeader = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <Link class="nav-link" to="/Home">Home</Link>
+        <Link class="nav-link" to="/">Home</Link>
         <Link class="nav-link active" aria-current="page" to="/Add">Add Product</Link>
         <Link class="nav-link" to="/Search">Search Product</Link>
         <Link class="nav-link" to="/Delete">Delete Product</Link>
